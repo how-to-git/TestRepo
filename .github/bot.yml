@@ -3,7 +3,7 @@ issue:
   assign: true
 pr:
   message: "Thanks for opening PR #{ NUMBER }"
-  assign: false
+  assign: true
   change_check: true
   change_glob: "Changelog.md"
   skip_changelog_label: "Skip Changelog"
